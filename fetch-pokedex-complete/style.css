@@ -80,6 +80,11 @@
 	top: 212px;
 }
 
+.loading {
+	position: fixed;
+	top: 212px;
+}
+
 .pokemon-image {
 	width: 200px;
 	height: 200px;
