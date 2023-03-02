@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body class="body">
+	<nav class="nav">
+		<div class="nav-header">
+			<img class="pokeball" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png" alt=""/>
+			<div>Pokedex</div>
+		</div>
+	</nav>
+	<div class="pokemon-wrapper">
+		<div class="search-wrapper">
+			<h1 class="search-heading">Search for a Pokemon!</h1>
+			<div class="search-container">
+				<input 
+				class="search-input" 
+				type="text" 
+				placeholder="Enter Pokemon name here" 
+				value="" 
+			/>
+			<button class="search-button">Search</button>
+			</div>
+			<div class="error-msg"></div>
+		</div>
+		<div class="pokemon-container">
+			<img class="pokemon-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png" alt="" />
+			<div class="pokemon-info">
+				<div class="pokemon-info-row">
+					<p>ID: #</p>
+					<p class="pokemon-id"></p>
+				</div>
+				<div class="pokemon-info-row">
+					<p>Name: &nbsp</p>
+					<p class="pokemon-name"></p>
+				</div>
+				<div class="pokemon-info-row">
+					<p>Height: &nbsp</p>
+					<p class="pokemon-height"></p>
+				</div>
+				<div class="pokemon-info-row">
+					<p>Weight: &nbsp</p>
+					<p class="pokemon-weight"></p>
+				</div>
+				<!-- <div class="pokemon-info-row">
+					<p>Moves: &nbsp</p>
+					<p class="pokemon-moves"></p>
+				</div> -->
+			</div>
+		</div>
+		<div class="loading">
+		</div>
+	</div>
+</body>
+<script src="./script.js"></script>
+</html>

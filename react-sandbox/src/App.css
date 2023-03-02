@@ -1,0 +1,11 @@
+.App {
+	background: black;
+	color: white;
+	height: 100vh
+}
+
+button {
+	width: 200px;
+	color: white;
+	background: black;
+}
