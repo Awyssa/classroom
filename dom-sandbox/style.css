@@ -1,0 +1,43 @@
+body {
+	background: black;
+	color: white;
+}
+
+.heading-one {
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+}
+
+.button {
+	padding: 10px 50px;
+	margin: 5px;
+	font-size: 22px;
+}
+
+.counter {
+	font-size: 42px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.reset {
+	margin-top: 20px;
+}
+
+.input {
+	padding: 10px;
+	width: 300px;
+	margin-top: 20px;
+}
+
+.set-count-button {
+	margin: 20px 0;
+}
